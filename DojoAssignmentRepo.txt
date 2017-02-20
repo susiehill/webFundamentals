@@ -3,3 +3,5 @@ git add .
 git commit -m "Push initial files to repo. "
 git push --set-upstream origin master
 git commit
+
+Making changes to this file and committing then pushing to GitHub is the power of using a VCS.
