@@ -1,0 +1,16 @@
+cd Desktop
+mkdir test
+touch index.html
+touch styles.css
+touch aboutMe.txt
+git init
+git add .
+git commit
+git commit -m "Initial commit to repo"
+git commit -m "Added text to aboutMe.txt"
+git status
+git log
+git revert -n d6088f8
+git commit -m "revert d6088f8"
+git log
+
